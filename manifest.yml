@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: SpaziDiLibertaIntellettuale
+  host: spazidilibertaintellettuale
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
